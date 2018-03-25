@@ -4,14 +4,21 @@
 }
 
 table{
-  color: #003015;
+  color: #FECB00; gold
+  color: #003015; green
 } */
+
+p{
+  text-align: left;
+  padding-left: 205px;
+}
 
 h2{
   text-align: center;
   border: 2px solid #003015;
 }
 
+/* h4 & h5 is countdown clock stuff */
 h4{
   text-align: right;
   padding-right: 20px;
@@ -27,19 +34,20 @@ h5{
   font-family: verdana;
   font-size: 12px;
   font-weight: 200;
-  background-color: #2e353d;
+  background-color: #003015;
   position: fixed;
   top: 0px;
   width: 200px;
   height: 100%;
-  color: #e1ffff;
+  color: #003015;
 }
 .nav-side-menu .brand {
-  background-color: #23282e;
+  background-color: #003015;
   line-height: 50px;
   display: block;
   text-align: center;
   font-size: 14px;
+  color: #FECB00;
 }
 .nav-side-menu .toggle-btn {
   display: none;
@@ -51,6 +59,9 @@ h5{
   margin: 0px;
   line-height: 35px;
   cursor: pointer;
+  font-size: 15px;
+  text-align: center;
+
   /*
     .collapsed{
        .arrow:before{
@@ -70,10 +81,11 @@ h5{
   font-family: FontAwesome;
   content: "\f078";
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 0px;
   padding-right: 10px;
   vertical-align: middle;
   float: right;
+  color: skyblue;
 }
 .nav-side-menu ul .active,
 .nav-side-menu li .active {
@@ -111,8 +123,8 @@ h5{
 }
 .nav-side-menu li {
   padding-left: 0px;
-  border-left: 3px solid #2e353d;
-  border-bottom: 1px solid #23282e;
+  border-left: 1px solid rgba(255, 184, 28, 0.2);
+  border-bottom: 1px solid #FECB00;
 }
 .nav-side-menu li a {
   text-decoration: none;
