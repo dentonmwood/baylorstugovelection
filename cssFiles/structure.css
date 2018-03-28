@@ -1,0 +1,21 @@
+
+h2{
+  width: 100%;
+}
+.card-img-top{
+  width:100%
+}
+.sock{
+  height:42;
+  width: 42;
+}
+.card{
+  width:400px;
+}
+.container{
+  width: 100%;
+  background-color: #FECB00;
+}
+.name {
+  width: 100%;
+}
