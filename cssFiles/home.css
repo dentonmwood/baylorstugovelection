@@ -13,10 +13,22 @@ p{
   padding-left: 205px;
 }
 
+#well{
+    align-items: center;
+}
+
+#header{
+  text-align: center;
+  color: #003015;
+  font-weight: bold;
+  font-family: Palatino;
+  /* border: 3px #003015 solid;
+  border-radius: 10px 10px 10px 10px; */
+}
+
 h2{
   text-align: center;
   border: 2px solid #003015;
-  padding-left: 40px;
 }
 
 /* voting countdown clock */
