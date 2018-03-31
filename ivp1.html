@@ -6,45 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="cssFiles/home.css">
+  <link rel="stylesheet" type="text/css" href="cssFiles/navbar.css">
 </head>
 <body>
    <!--Bryan and Allens Code here -->
 
-<nav>
-  <div class="nav-side-menu">
-      <div class="brand">Navigation</div>
-      <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
-        <div class="menu-list">
+   <!-- Navbar -->
+     <nav>
+       <div class="nav-side-menu">
+           <div class="brand">Navigation</div>
+           <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+             <div class="menu-list">
 
-          <ul id="menu-content" class="menu-content collapse out">
-              <li  data-toggle="collapse" data-target="#" class="collapsed">
-                <a class="nav-link" href="about.html">About Student Gov</a>
-              </li>
+               <!-- Navbar tabs -->
+               <ul id="menu-content" class="menu-content collapse out">
+                   <li  data-toggle="collapse" data-target="#" class="collapsed">
+                     <a class="nav-link" href="home.html">Home</a>
+                   </li>
 
-              <li data-toggle="collapse" data-target="#" class="collapsed">
-                <a class="nav-link" href="structure.html">Structure</a>
-              </li>
+                   <li  data-toggle="collapse" data-target="#" class="collapsed">
+                     <a class="nav-link" href="about.html">About Student Gov</a>
+                   </li>
 
-              <li data-toggle="collapse" data-target="#" class="collapsed">
-                <a class="nav-link" href="president.html">Student Body President</a>
-              </li>
+                   <li data-toggle="collapse" data-target="#" class="collapsed">
+                     <a class="nav-link" href="structure.html">Structure</a>
+                   </li>
 
-              <li data-toggle="collapse" data-target="#" class="collapsed">
-                <a class="nav-link" href="evp.html">External VP</a>
-              </li>
+                   <li data-toggle="collapse" data-target="#pres" class="collapsed">
+                     <a href="#">Student Body President<span class="arrow"></span></a>
+                   </li>
+                   <ul class="sub-menu collapse" id="pres">
+                     <li><a class="nav-link" href="president.html">Candidate 1</a></li>
+                   </ul>
 
-              <li data-toggle="collapse" data-target="#new" class="collapsed">
-                <a href="#">Internal VP<span class="arrow"></span></a>
-              </li>
-              <ul class="sub-menu collapse" id="new">
-                <li><a class="nav-link" href="ivp1.html">Candidate 1</a></li>
-                <li><a class="nav-link" href="ivp2.html">Candidate 2</a></li>
-              </ul>
-          </ul>
+                   <li data-toggle="collapse" data-target="#evp" class="collapsed">
+                     <a href="#">External VP<span class="arrow"></span></a>
+                   </li>
+                   <ul class="sub-menu collapse" id="evp">
+                     <li><a class="nav-link" href="evp.html">Candidate 1</a></li>
+                   </ul>
 
-     </div>
- </div>
-</nav>
+                   <li data-toggle="collapse" data-target="#ivp" class="collapsed">
+                     <a href="#">Internal VP<span class="arrow"></span></a>
+                   </li>
+                   <ul class="sub-menu collapse" id="ivp">
+                     <li><a class="nav-link" href="ivp1.html">Candidate 1</a></li>
+                     <li><a class="nav-link" href="ivp2.html">Candidate 2</a></li>
+                   </ul>
+               </ul>
+
+          </div>
+      </div>
+     </nav>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
